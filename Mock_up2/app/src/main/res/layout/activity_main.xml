@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_image"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="190dp"
+        android:layout_height="170dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginEnd="7dp"
+        android:src="@drawable/image1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="141dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="28dp"
+        android:text="Enquiry"
+        android:textColor="#ffffff"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.873" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="370dp"
+        android:layout_height="440dp"
+        android:layout_margin="30dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/back_image2"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="30dp"
+        android:text="Select Country"
+        android:textColor="#59ABF3"
+        android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="5dp"
+            android:text="Country"
+            android:textColor="#000000"
+            android:textSize="19sp" />
+
+        <View
+            android:layout_width="325dp"
+            android:layout_height="1dp"
+            android:layout_marginStart="26dp"
+            android:layout_marginTop="3dp"
+            android:background="#59ABF3" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="6dp"
+            android:text="Select State"
+            android:textSize="15sp"
+            android:textColor="#59ABF3"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="5dp"
+            android:text="State"
+            android:textColor="#000000"
+            android:textSize="19sp" />
+
+        <View
+            android:layout_width="325dp"
+            android:layout_height="1dp"
+            android:layout_marginStart="26dp"
+            android:layout_marginTop="3dp"
+            android:background="#59ABF3" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="6dp"
+            android:text="Select District"
+            android:textSize="15sp"
+            android:textColor="#59ABF3"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="5dp"
+            android:text="District"
+            android:textColor="#000000"
+            android:textSize="19sp" />
+
+        <View
+            android:layout_width="325dp"
+            android:layout_height="1dp"
+            android:layout_marginStart="26dp"
+            android:layout_marginTop="3dp"
+            android:background="#59ABF3" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="6dp"
+            android:text="Select Center"
+            android:textSize="15sp"
+            android:textColor="#59ABF3"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="5dp"
+            android:text="Center Name"
+            android:textColor="#000000"
+            android:textSize="19sp" />
+
+        <View
+            android:layout_width="325dp"
+            android:layout_height="1dp"
+            android:layout_marginStart="26dp"
+            android:layout_marginTop="3dp"
+            android:background="#59ABF3" />
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="160dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/image3"
+            android:text="Select Center"
+            android:textColor="#ffffff"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:layout_marginStart="111dp"
+            android:layout_marginTop="17dp"
+            android:text="Automatically find nearest center"
+            android:textColor="#0689FB"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+
+
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
